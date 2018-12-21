@@ -1,0 +1,98 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+h1.persion {
+  background-color: rgba(151, 142, 131, 0.8);
+  color: rgb(255, 255, 255);
+  border: 1px;
+}
+.registerButton {
+  display: block;
+  padding-left: 250px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+
+  margin-left: 40px;
+  margin-right: 39px;
+  background-color: #0c78c0;
+  color: rgb(255, 255, 255);
+  border: 1px;
+  font-size: 5px;
+  height: 50px;
+}
+h1 {
+  display: block;
+  padding-left: 220px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  width: 100%;
+
+  background-color: #84c00c;
+  color: #fff;
+  border: 1px;
+  font-size: 30px;
+  height: 50px;
+  margin-top: 3px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 0;
+  font-family: Helvetica Neue, Helvetica;
+  background: #f7f7f7;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+form {
+  padding: 0 40px;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  padding: 5px 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+form input.error {
+  border-color: red;
+}
+
+div button {
+  background-color: #84c00c;
+  color: #fff;
+  font-size: 16px;
+  height: 30px;
+}
+form button {
+  display: block;
+  width: 100%;
+  appearance: none;
+  border-radius: 5px;
+  background-color: #84c00c;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  height: 40px;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background-color: #669509;
+}
+
+form button:disabled {
+  background-color: #dbf99f;
+  color: #333;
+}
